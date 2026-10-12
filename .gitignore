@@ -1,0 +1,42 @@
+# Dataset Files
+train_FD004.txt
+test_FD004.txt
+RUL_FD004.txt
+*.txt
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# Generated CSV exports (large files)
+powerbi_engines_data.csv
+powerbi_feature_importance.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
